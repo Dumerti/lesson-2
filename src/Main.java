@@ -53,14 +53,14 @@ public class Main {
         var boxerWeight1= 78.2;
         var boxerWeight2= 82.7;
         var totalWeight= boxerWeight1 + boxerWeight2;
-        var differrenceWeight= boxerWeight2 - boxerWeight1;
+        var differenceWeight= boxerWeight2 - boxerWeight1;
         System.out.println(totalWeight);
-        System.out.println(differrenceWeight);
+        System.out.println(differenceWeight);
 //Задание №7
         System.out.println(" ");
         System.out.println("Задание №7");
-        var remaiderWeigt= boxerWeight2 % boxerWeight1;
-        System.out.println("Разница в весе боксеров " + remaiderWeigt + " кг");
+        var remainderWeight= boxerWeight2 % boxerWeight1;
+        System.out.println("Разница в весе боксеров " + remainderWeight + " кг");
 //Задание №8
         System.out.println(" ");
         System.out.println("Задание №8 часть 1");
