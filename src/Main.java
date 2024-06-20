@@ -59,6 +59,22 @@ public class Main {
 //Задание №7
         System.out.println(" ");
         System.out.println("Задание №7");
+        var remaiderWeigt= boxerWeight2 % boxerWeight1;
+        System.out.println("Разница в весе боксеров " + remaiderWeigt + " кг");
+//Задание №8
+        System.out.println(" ");
+        System.out.println("Задание №8 часть 1");
+        var totalHourCompany1= 640;
+        var workerHour= 8;
+        var totalWorker= totalHourCompany1 / workerHour; //80 человек
+        System.out.println("Всего работников в компании " + totalWorker + " человек");
+
+        System.out.println(" ");
+        System.out.println("Задание №8 часть 2");
+        totalWorker= totalWorker + 94;
+        var totalHourCompany2= totalWorker * 8;
+        System.out.println("Если в компании работает " + totalWorker + " человек, то всего " + totalHourCompany2 + " часов работы может быть поделено между сотрудниками" );
+
 
     }
 }
